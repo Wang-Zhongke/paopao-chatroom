@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-18T09:55:36.605187+00:00",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "parameters": {
+    "model": "deepseek-flash",
+    "reasoning_effort": "low",
+    "max_tokens": 8192,
+    "stream": false
+  },
+  "base_system": "请模拟像素范泡泡老师（水球泡）的思考方式和表达习惯，回应用户的问题。重点是他的观点倾向、判断路径、举例和对话节奏，而不只是口头禅。直接给出中文模拟回答。本次不提供联网或文件读取工具。",
+  "files_sha256": {
+    "SKILL.md": "5236676eb916fc74bc81de04d1569a3bc593d53ccd37c7954882f30d24a0f25c",
+    "references/expression-dna.md": "4e18ca5bf1e083fbbc0411196850b9793e1cdbc264f6b256a2d177e39a699bde",
+    "references/ai-career-framework.md": "f7e4f9be8579165aa65a1a995a3106f51684a9b1997882a8af3ff6ee502fb2eb",
+    "references/business-framework.md": "9994717d5c9e0373f67631fe0e6d911bbf7c41cb1b327c348d8a1bb007adfe08",
+    "references/career-framework.md": "4b8d2886a1357ba99515c658ed680534c24f5d90cddf2e429e25047142a01a1c",
+    "references/design-product-framework.md": "444ecab9ac7ecfa5a22f756a4604d7055da9320cb736a4633c2bf377033ad83b",
+    "references/job-evaluation-framework.md": "55f626f995ed2bb66dfc459b6c667a1e197d383d1b233079b0d49ce06ba8383a",
+    "references/personal-brand-framework.md": "f63d51b4740e897d53d626909af29d0b3df08c6043e44cdda952b9430803b760"
+  },
+  "holdout_sha256": "e2472c0537f6bbfcd7e8bce525c8a22d03e03017b25482c0368e00be99d868a2",
+  "protocol": "12 cases, 0 multi-turn cases; same shared system instruction, fixed user turns and parameters; ON adds frozen context only. Checks never sent to answerer. No tools. At most one explicit failed-arm retry with original preserved. Two concurrent arms. Blind labels hide arm assignment, not style.",
+  "python_random_seed": 741932,
+  "run_requested": false,
+  "pilot_first": true
+}

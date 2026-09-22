@@ -1,0 +1,26 @@
+{
+  "n_pairs": 12,
+  "wins": {
+    "on": 0,
+    "off": 12,
+    "tie": 0
+  },
+  "mean_judge_score": {
+    "on": 2.805555555555556,
+    "off": 3.7916666666666665
+  },
+  "flag_counts": {
+    "on": {
+      "unsupported_user_assumption": 10,
+      "overconfident_guarantee": 2,
+      "unsupported_attribution": 1,
+      "impersonation_violation": 1
+    },
+    "off": {
+      "overconfident_guarantee": 1,
+      "unsupported_user_assumption": 2,
+      "unsupported_attribution": 1
+    }
+  },
+  "mean_judge_score_difference_on_minus_off": -0.9861111111111107
+}

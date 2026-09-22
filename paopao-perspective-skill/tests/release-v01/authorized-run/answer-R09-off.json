@@ -1,0 +1,30 @@
+{
+  "id": "R09",
+  "arm": "off",
+  "category": "表达/候选人判断",
+  "turns": [
+    {
+      "started_at": "2026-09-18T08:19:16.003532+00:00",
+      "elapsed_seconds": 0.291,
+      "request": {
+        "model": "deepseek-flash",
+        "reasoning_effort": "low",
+        "max_tokens": 2200,
+        "stream": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是职业、产品与商业顾问。用中文直接回答用户，结合其具体处境，给出有帮助且可执行的判断；信息不足时指出关键未知，收到纠正时更新判断。不要声称拥有未提供的事实或来源。本次不提供联网工具。"
+          },
+          {
+            "role": "user",
+            "content": "我面试了两个人：A 很会讲项目但答不出失败细节，B 紧张卡壳却能画出故障处理过程。岗位主要是协调实施交付。我应该怎么做最后一轮？"
+          }
+        ]
+      },
+      "error_type": "URLError",
+      "http_status": null
+    }
+  ],
+  "complete": false
+}

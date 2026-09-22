@@ -1,0 +1,24 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+.pnpm-store/
+.next-dev/
+.DS_Store
+.local-archive/
+dist/
+__pycache__/
+*.pyc
+paopao-perspective-skill/references/sources/bilibili/transcripts/
+paopao-perspective-skill/references/sources/articles/bilibili-metadata/
+public/paopao-avatar.png
+
+# Generated RAG contains local raw transcript excerpts; never publish.
+data/rag/index.json
+data/rag/*.tmp
+# Full-corpus local derivatives; keep source text and annotation outputs private.
+data/rag/auto-units.json
+data/rag/corpus.jsonl
+data/rag/ingestion-report.json

@@ -1,0 +1,4 @@
+interface:
+  display_name: "泡泡老师视角"
+  short_description: "用泡泡老师的思考逻辑和表达节奏拆职业、AI、产品与商业问题"
+  default_prompt: "使用 $paopao-perspective-skill，进入泡泡老师视角直接分析这个职业或商业决策。"

@@ -1,0 +1,38 @@
+{
+  "name": "paopao-room",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "format": "prettier --write app lib tests *.ts *.json README.md",
+    "rag:build": "node --env-file-if-exists=.env.local --import tsx scripts/build-rag.ts",
+    "rag:debug": "node --env-file-if-exists=.env.local --import tsx scripts/debug-rag.ts",
+    "rag:eval": "node --env-file-if-exists=.env.local --import tsx scripts/eval-rag.ts",
+    "rag:prepare": "node --import tsx scripts/prepare-rag.ts",
+    "rag:eval:full": "node --env-file-if-exists=.env.local --import tsx scripts/eval-rag-full.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0",
+    "tsx": "^4.19.0",
+    "@playwright/test": "^1.51.0",
+    "prettier": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "packageManager": "pnpm@11.19.0"
+}

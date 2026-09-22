@@ -1,0 +1,84 @@
+[
+  {
+    "id": "job-search-feedback",
+    "bvid": "BV11j3v6BEqz",
+    "type": "qa_case",
+    "title": "销售转行：从五个岗位的自我否定，到真实投递和反馈",
+    "ranges": [[10, 551]],
+    "questionRanges": [[10, 46]],
+    "answerRanges": [
+      [213, 243],
+      [516, 521]
+    ],
+    "context": "来电者在企业做了四年销售，轮岗后觉得没有成长，想换工作又不知道自己的手牌。后续追问发现没有投过简历，只搜索约五个岗位，并因学历和薪资筛掉一些。完整连麦保留来电者和老师的往返；question 是开场原始提问，answer 是老师结论段，content 才是完整讨论，不能将其中全部第一人称归于老师。",
+    "claim": "先通过实际投递、面试和具体 JD 获取市场反馈，再补知识和技能缺口；不能仅凭极少岗位判断没有机会。",
+    "topics": ["career", "learning"],
+    "boundaryNote": "跳过开头重复预告，保留从开场问题至道别的完整连麦；问答摘录有单独字幕编号。辱骂、性别偏见和包进/两周保证不能采纳。"
+  },
+  {
+    "id": "ai-pm-projects",
+    "bvid": "BV1UMEc6hEBJ",
+    "type": "viewpoint",
+    "title": "AI 产品求职：作品要展现兴趣与主动性",
+    "ranges": [[10, 159]],
+    "claim": "用真实、有个人兴趣的项目展现主动性与品味，不把作品集仅做成面试话术工具。",
+    "context": "从 AI 产品找工作需要作品，讲到苏轼/金庸人物关系等小产品，再收束到让面试官眼前一亮；不构成高薪或学历门槛取消的保证。",
+    "topics": ["AI_PM", "career", "product"],
+    "boundaryNote": "完整第一条作品建议，止于第二条议题之前；岗位和年薪为当时自述，非实时事实。"
+  },
+  {
+    "id": "ai-pm-role",
+    "bvid": "BV1UMEc6hEBJ",
+    "type": "viewpoint",
+    "title": "AI 产品和传统产品：比较实际需求、部署与交付职责",
+    "ranges": [[678, 736]],
+    "claim": "区分传统产品沟通与企业 AI 落地的真实工作对象，不能只看岗位名称。",
+    "context": "面向既有产品班同学解释传统产品沟通、需求与验收，以及他所理解的 FDE 部署、提效职责；百分比与岗位定义为经验说法。",
+    "topics": ["AI_PM", "career", "product"],
+    "boundaryNote": "完整岗位对照段；不是 FDE 行业标准定义。"
+  },
+  {
+    "id": "output-learning",
+    "bvid": "BV1zwV2zyEbg",
+    "type": "viewpoint",
+    "title": "输出型学习：在讲解、使用和被追问中夯实知识",
+    "ranges": [[389, 438]],
+    "claim": "讲解使逻辑自洽、理论完整；被真实问题挑战和实际使用的知识更牢固。",
+    "context": "泡泡用自己的边教边学经历解释输入型爱好与输出型学习的区别。这里只讨论学习机制，不采纳该视频其他段落的极端工时建议。",
+    "topics": ["learning", "brand"],
+    "boundaryNote": "从引入输出型爱好至其结果，止于第二动力的新议题；连续完整论证。"
+  },
+  {
+    "id": "success-memory",
+    "bvid": "BV1iybN6UEVn",
+    "type": "viewpoint",
+    "title": "成功记忆：完成长期难事带来的可迁移信心",
+    "ranges": [[148, 296]],
+    "claim": "完成一件困难而有结果的事，会形成可迁移到下一次挑战的成功记忆。",
+    "context": "以中高考、个人经历说明长期完成闭环与信心的联系；标题中的唯一燃料不是科学因果定论，建议月份不应改成普遍承诺。",
+    "topics": ["learning", "career"],
+    "boundaryNote": "保留成功记忆机制及个人考试经历的完整论证段，不摘单句充当通用定律。"
+  },
+  {
+    "id": "young-entrepreneurship",
+    "bvid": "BV1vf421B7xr",
+    "type": "viewpoint",
+    "title": "年轻创业：经验信用不足时先观察生意、建设基础",
+    "ranges": [[75, 138]],
+    "claim": "创业前积累案例、基础技能和协作关系，以较低成本接触成熟的生意。",
+    "context": "面向二十多岁听众的早期创业建议，说明缺少案例和信用对谈合作的影响；不否认年轻人的低成本试验，也不把年龄当能力判断。",
+    "topics": ["business", "career"],
+    "boundaryNote": "从创业性价比论点到具体积累动作的完整讨论。"
+  },
+  {
+    "id": "learning-upgrade",
+    "bvid": "BV1vf421B7xr",
+    "type": "viewpoint",
+    "title": "持续学习：一手信息源、工具社区与可升级能力",
+    "ranges": [[205, 283]],
+    "claim": "知道在哪里学、怎样判断一手信息，并持续更新，比只掌握一次求职技能更重要。",
+    "context": "以教育和手机 OTA 类比解释持续升级，介绍英文、一手信息源、设计社区与行业更新；教学效果和学生数量均属自述。",
+    "topics": ["learning", "product", "career"],
+    "boundaryNote": "完整学习系统讨论至片尾；课程效果不得当作外部验证事实。"
+  }
+]

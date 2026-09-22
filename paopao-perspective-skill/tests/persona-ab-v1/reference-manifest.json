@@ -1,0 +1,390 @@
+{
+  "version": "persona-ab-v1",
+  "created_date": "2026-09-18",
+  "purpose": "人物忠实度测试原始语料参考；非严格训练未见集",
+  "method": {
+    "allowed_evidence": [
+      "original clean transcripts",
+      "corpus-index.json metadata"
+    ],
+    "used_video_cards": false,
+    "used_prior_evaluation": false,
+    "network_or_api_calls": false,
+    "overlap_check": "literal BVID matching only; no matching source IDs in checked files; does not establish historical non-use"
+  },
+  "overlap_checked_files": [
+    "paopao-perspective-skill/SKILL.md",
+    "paopao-perspective-skill/references/expression-dna.md",
+    "paopao-perspective-skill/references/design-product-framework.md",
+    "paopao-perspective-skill/references/business-framework.md",
+    "paopao-perspective-skill/references/job-evaluation-framework.md",
+    "paopao-perspective-skill/references/personal-brand-framework.md",
+    "paopao-perspective-skill/references/career-framework.md",
+    "paopao-perspective-skill/references/ai-career-framework.md"
+  ],
+  "source_index": "paopao-perspective-skill/references/sources/bilibili/corpus-index.json",
+  "sources": [
+    {
+      "bvid": "BV1D64y1Q7Lf",
+      "title": "设计师35岁以后很难找工作吗？上",
+      "published_at": "2021-07-06T10:42:19+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1D64y1Q7Lf.md",
+      "sha256": "08161d9e0914fb85fb8a320825ef89450cf3335c168a8d6774f257b3ea37f31c",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 69,
+      "full_clip_segment_end": 145,
+      "full_clip_han_count": 698,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV1FL411j7GN",
+      "title": "别把作品集放在站酷找工作了",
+      "published_at": "2021-12-12T17:20:30+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1FL411j7GN.md",
+      "sha256": "b4765b3d9cfa6215de94eea520a09728c682d37bcd022c5840dc0fdeb2418ca0",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 6,
+      "full_clip_segment_end": 90,
+      "full_clip_han_count": 806,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV1oy411a7pL",
+      "title": "八十万粉丝赚不到钱？？？咱们细聊下为什么。",
+      "published_at": "2024-05-30T16:19:31+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1oy411a7pL.md",
+      "sha256": "306ce22dc233e9bdaa1f2bdbbfe73ee5919d7fb2750544c02c85719a4ca3675f",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 27,
+      "full_clip_segment_end": 105,
+      "full_clip_han_count": 838,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV17eXYB9EXS",
+      "title": "为什么跟领导搞好关系并不是什么好事。到底什么是向上管理？",
+      "published_at": "2026-03-30T18:33:22+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV17eXYB9EXS.md",
+      "sha256": "c67bf9f1544c5072711f920d531744cab60e40d2f723ed770b53446058bfab77",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 57,
+      "full_clip_segment_end": 114,
+      "full_clip_han_count": 624,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV1Kr27BGEJs",
+      "title": "想做自媒体，千万不要“爹味太重”。",
+      "published_at": "2025-12-05T21:12:45+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Kr27BGEJs.md",
+      "sha256": "50dd491e7958a49c8f97e79dd8e5bc248999e4c88e4f3dcc3eac3297ce589bc2",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 120,
+      "full_clip_segment_end": 184,
+      "full_clip_han_count": 627,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV15aMAzqEtE",
+      "title": "AI时代下核心人才的形态，以及所需要的核心能力。",
+      "published_at": "2025-06-13T10:55:18+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV15aMAzqEtE.md",
+      "sha256": "24f2f40ce456f0eadbcaa2062d0354f6d8cf10ca29daee4c7489bd780b4dec21",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 433,
+      "full_clip_segment_end": 515,
+      "full_clip_han_count": 751,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV1TPBqYnEYK",
+      "title": "如何在公司里成长？什么样才叫学到东西？",
+      "published_at": "2024-11-22T17:48:28+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1TPBqYnEYK.md",
+      "sha256": "69031d00c1eb4c574de916a46e3b458bfcccb33d086c977e378c0df8b63f9033",
+      "transcript_method": "bilibili-ai-subtitle",
+      "transcript_status": "downloaded",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 57,
+      "full_clip_segment_end": 128,
+      "full_clip_han_count": 732,
+      "explicit_bvid_matches_in_checked_files": []
+    },
+    {
+      "bvid": "BV1Wg4tzeEP3",
+      "title": "小众圈子创业的真相：100个顾客够你活一辈子。",
+      "published_at": "2025-10-14T18:27:38+08:00",
+      "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Wg4tzeEP3.md",
+      "sha256": "9b1d8b2d6e85894c29ecc9ee40d2bba85e032bed66619ab8f3ee448b5e4716aa",
+      "transcript_method": "burned-in-caption-ocr",
+      "transcript_status": "downloaded-ocr",
+      "quality_status": "machine-usable",
+      "review_status": "pending",
+      "full_clip_segment_start": 8,
+      "full_clip_segment_end": 100,
+      "full_clip_han_count": 848,
+      "explicit_bvid_matches_in_checked_files": []
+    }
+  ],
+  "items": [
+    {
+      "id": "P01",
+      "category": "职业",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1D64y1Q7Lf",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1D64y1Q7Lf.md",
+          "segment_start": 69,
+          "segment_end": 145,
+          "time_start": "02:05.040",
+          "time_end": "04:20.530",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "category": "设计",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1FL411j7GN",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1FL411j7GN.md",
+          "segment_start": 6,
+          "segment_end": 90,
+          "time_start": "00:08.800",
+          "time_end": "02:33.620",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "category": "个人品牌",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1oy411a7pL",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1oy411a7pL.md",
+          "segment_start": 27,
+          "segment_end": 105,
+          "time_start": "01:01.390",
+          "time_end": "03:30.500",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "category": "管理",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV17eXYB9EXS",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV17eXYB9EXS.md",
+          "segment_start": 57,
+          "segment_end": 114,
+          "time_start": "01:55.490",
+          "time_end": "03:51.110",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "category": "个人品牌",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1Kr27BGEJs",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Kr27BGEJs.md",
+          "segment_start": 120,
+          "segment_end": 184,
+          "time_start": "04:16.520",
+          "time_end": "06:32.960",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "category": "AI",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV15aMAzqEtE",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV15aMAzqEtE.md",
+          "segment_start": 433,
+          "segment_end": 515,
+          "time_start": "14:02.010",
+          "time_end": "16:49.120",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "category": "职业",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1TPBqYnEYK",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1TPBqYnEYK.md",
+          "segment_start": 57,
+          "segment_end": 128,
+          "time_start": "02:14.300",
+          "time_end": "04:23.320",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "category": "商业",
+      "kind": "known",
+      "prompt_origin": "改写原话题，非逐字提问",
+      "references": [
+        {
+          "bvid": "BV1Wg4tzeEP3",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Wg4tzeEP3.md",
+          "segment_start": 8,
+          "segment_end": 100,
+          "time_start": "00:10.400",
+          "time_end": "03:04.800",
+          "reference_type": "direct-topic-contiguous-context"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "category": "AI/职业",
+      "kind": "transfer",
+      "prompt_origin": "新构造场景，无本人现成答案",
+      "references": [
+        {
+          "bvid": "BV1D64y1Q7Lf",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1D64y1Q7Lf.md",
+          "segment_start": 95,
+          "segment_end": 105,
+          "time_start": "02:47.980",
+          "time_end": "03:11.740",
+          "reference_type": "related-evidence-not-existing-answer"
+        },
+        {
+          "bvid": "BV15aMAzqEtE",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV15aMAzqEtE.md",
+          "segment_start": 492,
+          "segment_end": 515,
+          "time_start": "16:02.150",
+          "time_end": "16:49.120",
+          "reference_type": "related-evidence-not-existing-answer"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "category": "设计/个人品牌",
+      "kind": "transfer",
+      "prompt_origin": "新构造场景，无本人现成答案",
+      "references": [
+        {
+          "bvid": "BV1FL411j7GN",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1FL411j7GN.md",
+          "segment_start": 26,
+          "segment_end": 39,
+          "time_start": "00:49.860",
+          "time_end": "01:17.920",
+          "reference_type": "related-evidence-not-existing-answer"
+        },
+        {
+          "bvid": "BV1oy411a7pL",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1oy411a7pL.md",
+          "segment_start": 37,
+          "segment_end": 45,
+          "time_start": "01:20.740",
+          "time_end": "01:37.630",
+          "reference_type": "related-evidence-not-existing-answer"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "category": "管理/职业",
+      "kind": "transfer",
+      "prompt_origin": "新构造场景，无本人现成答案",
+      "references": [
+        {
+          "bvid": "BV17eXYB9EXS",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV17eXYB9EXS.md",
+          "segment_start": 70,
+          "segment_end": 99,
+          "time_start": "02:22.180",
+          "time_end": "03:22.260",
+          "reference_type": "related-evidence-not-existing-answer"
+        },
+        {
+          "bvid": "BV1TPBqYnEYK",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1TPBqYnEYK.md",
+          "segment_start": 57,
+          "segment_end": 82,
+          "time_start": "02:14.300",
+          "time_end": "03:02.600",
+          "reference_type": "related-evidence-not-existing-answer"
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "category": "商业/个人品牌",
+      "kind": "transfer",
+      "prompt_origin": "新构造场景，无本人现成答案",
+      "references": [
+        {
+          "bvid": "BV1Kr27BGEJs",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Kr27BGEJs.md",
+          "segment_start": 150,
+          "segment_end": 179,
+          "time_start": "05:30.010",
+          "time_end": "06:27.070",
+          "reference_type": "related-evidence-not-existing-answer"
+        },
+        {
+          "bvid": "BV1Wg4tzeEP3",
+          "path": "paopao-perspective-skill/references/sources/bilibili/transcripts/clean/BV1Wg4tzeEP3.md",
+          "segment_start": 25,
+          "segment_end": 57,
+          "time_start": "00:40.000",
+          "time_end": "01:40.800",
+          "reference_type": "related-evidence-not-existing-answer"
+        }
+      ]
+    }
+  ]
+}

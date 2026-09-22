@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "requests_checked": 24,
+  "baseline_only_shared_instruction_and_question": true,
+  "both_arms_same_parameters_and_questions": true,
+  "no_tools_files_or_reference_answers_in_baseline": true,
+  "shared_system_sha256": "99e6745f350c69edc5ede38d77bdf52af836fd55de9f3cac1cbf353912c2a24f",
+  "results": [
+    {
+      "id": "P01",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P01",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P02",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P02",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P03",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P03",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P04",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P04",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P05",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P05",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P06",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P06",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P07",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P07",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P08",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P08",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P09",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P09",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P10",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P10",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P11",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P11",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P12",
+      "arm": "on",
+      "request_messages": 2,
+      "exact_expected_request": true
+    },
+    {
+      "id": "P12",
+      "arm": "off",
+      "request_messages": 2,
+      "exact_expected_request": true
+    }
+  ],
+  "limit": "Audits stored request bodies, not provider internal model knowledge. Pretraining knowledge is intentionally part of baseline."
+}

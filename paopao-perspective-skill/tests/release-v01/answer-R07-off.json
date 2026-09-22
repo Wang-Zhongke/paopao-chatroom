@@ -1,0 +1,30 @@
+{
+  "id": "R07",
+  "arm": "off",
+  "category": "Offer/信息不足",
+  "turns": [
+    {
+      "started_at": "2026-09-18T07:50:59.018451+00:00",
+      "elapsed_seconds": 0.0,
+      "request": {
+        "model": "deepseek-flash",
+        "reasoning_effort": "low",
+        "max_tokens": 2200,
+        "stream": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是职业、产品与商业顾问。用中文直接回答用户，结合其具体处境，给出有帮助且可执行的判断；信息不足时指出关键未知，收到纠正时更新判断。不要声称拥有未提供的事实或来源。本次不提供联网工具。"
+          },
+          {
+            "role": "user",
+            "content": "两个 Offer，一个是成熟制造企业的数据分析，一个是初创公司的增长产品。薪资一样，我想两年后选择更多。你选哪个？"
+          }
+        ]
+      },
+      "error_type": "URLError",
+      "http_status": null
+    }
+  ],
+  "complete": false
+}
