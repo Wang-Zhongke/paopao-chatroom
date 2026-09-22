@@ -35,6 +35,8 @@ SOURCE_ROOT_FILES = {
 
 def skill_allowed(path: Path) -> bool:
     p = path.as_posix()
+    if p in {"tests/persona-ab-v1/shared-system.txt", ".gitignore", "scripts/research/README.md"}:
+        return True
     if path.name.startswith(".") or any(x.startswith(".") for x in path.parts):
         return False
     if p in {"SKILL.md", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "agents/openai.yaml"}:

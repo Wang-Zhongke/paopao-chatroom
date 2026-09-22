@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11863,
-      "sha256": "8db1a846ea2ab72d04de796ee1e8eba8cdde2f3543f5e77e51570182a38cd9e6"
+      "bytes": 11957,
+      "sha256": "c9b6386de19ca1b239c1973eddfbfe4c1eaf661f63163b26856f0c5fd53dad76"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -106,18 +106,18 @@
     },
     {
       "path": "docs/DEVELOPMENT.md",
-      "bytes": 2010,
-      "sha256": "27cf714b3fdc3a76f0e814c07abf9ff021d092b852177aae985dd2d6a027f7d5"
+      "bytes": 2500,
+      "sha256": "5c7ea4b7997d53e302ecd3b3fc265018f8ab895fb6d591d5d3e8d2e35348ae62"
     },
     {
       "path": "docs/PUBLISH.md",
-      "bytes": 3853,
-      "sha256": "e9f9cb5aace0bf0c927536258fb9aaaca39e94a78f3a5fb156657a852f1165c1"
+      "bytes": 1789,
+      "sha256": "2639ce5d5c92ef7d7dd5dc5ee25c91277a804fd757861ded500ecdee19504449"
     },
     {
       "path": "docs/RELEASE-CHECK.md",
-      "bytes": 1434,
-      "sha256": "040aa9824da08f8c1dc674c01d42b96baf7a648f04354c7b860c2125dcc5b921"
+      "bytes": 1744,
+      "sha256": "64d3b5c0ce72c3600e78300b46ef7e37500e7b19fb9be2318b159c3539f643e0"
     },
     {
       "path": "docs/assets/chatroom.png",
@@ -125,24 +125,9 @@
       "sha256": "640d2356885ad987996b1bba9f7c3e78a08a2d8bdcba360519e8e2d617e220ad"
     },
     {
-      "path": "docs/paopao-room-demo-v1-plan.md",
-      "bytes": 15292,
-      "sha256": "24a09374755837d044bf0e75fe0e429bc36cc3a099ee5b71591e6c1d43dd9365"
-    },
-    {
       "path": "docs/persona-rag-full-ingestion.md",
       "bytes": 5649,
       "sha256": "3e62da27ef00b80a0c78e21c1d4c9b34c2ef4dfcbf51bc8bed271fd79b8c01bb"
-    },
-    {
-      "path": "docs/persona-rag-v0.1-results.md",
-      "bytes": 11228,
-      "sha256": "feef8beedf56545e0496f1c4098aca1813ae4826041d1da029f4ae96255db8ce"
-    },
-    {
-      "path": "docs/persona-rag-v0.1.md",
-      "bytes": 7120,
-      "sha256": "e23f3c1a11cc801f07d0983f9fcdbb77dfc9b150564a36dc3d58147da1794798"
     },
     {
       "path": "lib/context.ts",
@@ -218,6 +203,11 @@
       "path": "package.json",
       "bytes": 1269,
       "sha256": "95d943741db26ae246dd48a0261159d980981cd30fc7a490a47972a75674f208"
+    },
+    {
+      "path": "paopao-perspective-skill/.gitignore",
+      "bytes": 39,
+      "sha256": "7c7ddaf5049d10507b7286c4a58a5a30ea16d78388ca2e468250fd3a85b772e1"
     },
     {
       "path": "paopao-perspective-skill/LICENSE",
@@ -356,8 +346,8 @@
     },
     {
       "path": "paopao-perspective-skill/references/research/10-bilibili-corpus-method.md",
-      "bytes": 5083,
-      "sha256": "8de7dd85eed7a75df6aa1d3430ea303e6094319d063321974ae4f0e36a9a0db1"
+      "bytes": 5092,
+      "sha256": "095da7b3fefea84766099b7ed3a7cec469857874d963fbf9735e7f8176ff31f3"
     },
     {
       "path": "paopao-perspective-skill/references/research/phase-1.5-checkpoint.md",
@@ -386,8 +376,8 @@
     },
     {
       "path": "paopao-perspective-skill/references/sources/bilibili/README.md",
-      "bytes": 2114,
-      "sha256": "1f0d37dffefff1a7301d13b69e62b21231016881631656f03105fa3726d74b9c"
+      "bytes": 2123,
+      "sha256": "9f40dc1a8316be2e970f4f19bdae8900ff835d1c325172c540fb1d94788d4809"
     },
     {
       "path": "paopao-perspective-skill/references/sources/bilibili/corpus-index.json",
@@ -2190,74 +2180,9 @@
       "sha256": "be13b1acfe0fa99f9063366af34d82ce80dbde67c510e7faab1719c61b2daf2b"
     },
     {
-      "path": "paopao-perspective-skill/scripts/apply_transcript_quality.py",
-      "bytes": 2756,
-      "sha256": "32ad9645cdd962c5e8f298a42dd14769681c5f55100b43e105ae22aa2e1c8a96"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_ai_batch.py",
-      "bytes": 4648,
-      "sha256": "b1b993567f75190072b58794fdf3e00329859de3518f33514db00784d2c8041d"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_ai_subtitles.py",
-      "bytes": 10698,
-      "sha256": "241ef561d95bc16def6a6d9dc4aa14e8ff8488f5530298549c65bbcba062d572"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_corpus_report.py",
-      "bytes": 5068,
-      "sha256": "9a3d1967b884e3636e9c5da77c34372bcc5a4aa94d0ca6c63756d78de7672e0b"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_ocr_batch.py",
-      "bytes": 8530,
-      "sha256": "b494e0490c43a0cafec7fd39c26996873c88f88f36ca72dfbc3f6bf2c7a1af35"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_series_inventory.py",
-      "bytes": 5767,
-      "sha256": "5a1894b47a0355cf1295b1f7b7012a1584c59fc82b63bee77f550fc3146ed808"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_subtitle_probe.py",
-      "bytes": 1854,
-      "sha256": "c59346f15cbf118335d502ea3c910a0bbac31d9d2474b0445fcebdb004815a69"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_topic_index.py",
-      "bytes": 4308,
-      "sha256": "59210867f8d854ddd80d572fc3327636fb64710e6e62953a881f960f5cbded0f"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_transcript_qa.py",
-      "bytes": 5042,
-      "sha256": "06f019e83f1c44c15c53dfd7e9118cb3c5d2fa59566896e16bd0938339c5a279"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_video_download.py",
-      "bytes": 7431,
-      "sha256": "681e34eda0f55b3a4b0d7debc0e1bd78070acaac35d58afedcf73bb7f8d600fc"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/bili_wbi_probe.py",
-      "bytes": 3348,
-      "sha256": "241ff3d72e6f1e401d3e4e8912a0bd55bc2c426ecdffa5556f9ec475009216ea"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/burned_caption_ocr.m",
-      "bytes": 6995,
-      "sha256": "4e1d22360654d0d5effe7eca4b1732bc63204e5ad411d5f6f47edecde559144d"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/compare_transcripts.py",
-      "bytes": 1980,
-      "sha256": "e33a4f827af222e6a45b04a2d2cbe5b0e560a88faf401f56631d049ad1f18c1a"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/download_subtitles.sh",
-      "bytes": 1806,
-      "sha256": "6b729f2117c552ca7a35013c0c7b2cac849db7057b7e5b6285d9a89c6ce93598"
+      "path": "paopao-perspective-skill/scripts/eval_persona.py",
+      "bytes": 10146,
+      "sha256": "f5d1762e3beef6880ce238baf30fcdf1682ef7a7fbd39b02ec19e19e16c149ec"
     },
     {
       "path": "paopao-perspective-skill/scripts/install.py",
@@ -2265,59 +2190,134 @@
       "sha256": "46aaa703640df617e2f1b56bd78852260ef800c44d6b46a8d6aac62e12c2b561"
     },
     {
-      "path": "paopao-perspective-skill/scripts/merge_research.py",
+      "path": "paopao-perspective-skill/scripts/research/README.md",
+      "bytes": 501,
+      "sha256": "38c4f4fc6e2c8357badc9dddb02c75d8c6e802415442d5c268182b0bfe34751a"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/apply_transcript_quality.py",
+      "bytes": 2756,
+      "sha256": "32ad9645cdd962c5e8f298a42dd14769681c5f55100b43e105ae22aa2e1c8a96"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_ai_batch.py",
+      "bytes": 4648,
+      "sha256": "b1b993567f75190072b58794fdf3e00329859de3518f33514db00784d2c8041d"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_ai_subtitles.py",
+      "bytes": 10698,
+      "sha256": "241ef561d95bc16def6a6d9dc4aa14e8ff8488f5530298549c65bbcba062d572"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_corpus_report.py",
+      "bytes": 5068,
+      "sha256": "9a3d1967b884e3636e9c5da77c34372bcc5a4aa94d0ca6c63756d78de7672e0b"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_ocr_batch.py",
+      "bytes": 8530,
+      "sha256": "b494e0490c43a0cafec7fd39c26996873c88f88f36ca72dfbc3f6bf2c7a1af35"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_series_inventory.py",
+      "bytes": 5767,
+      "sha256": "5a1894b47a0355cf1295b1f7b7012a1584c59fc82b63bee77f550fc3146ed808"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_subtitle_probe.py",
+      "bytes": 1854,
+      "sha256": "c59346f15cbf118335d502ea3c910a0bbac31d9d2474b0445fcebdb004815a69"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_topic_index.py",
+      "bytes": 4308,
+      "sha256": "59210867f8d854ddd80d572fc3327636fb64710e6e62953a881f960f5cbded0f"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_transcript_qa.py",
+      "bytes": 5042,
+      "sha256": "06f019e83f1c44c15c53dfd7e9118cb3c5d2fa59566896e16bd0938339c5a279"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_video_download.py",
+      "bytes": 7431,
+      "sha256": "681e34eda0f55b3a4b0d7debc0e1bd78070acaac35d58afedcf73bb7f8d600fc"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/bili_wbi_probe.py",
+      "bytes": 3348,
+      "sha256": "241ff3d72e6f1e401d3e4e8912a0bd55bc2c426ecdffa5556f9ec475009216ea"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/burned_caption_ocr.m",
+      "bytes": 6995,
+      "sha256": "4e1d22360654d0d5effe7eca4b1732bc63204e5ad411d5f6f47edecde559144d"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/compare_transcripts.py",
+      "bytes": 1980,
+      "sha256": "e33a4f827af222e6a45b04a2d2cbe5b0e560a88faf401f56631d049ad1f18c1a"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/download_subtitles.sh",
+      "bytes": 1806,
+      "sha256": "6b729f2117c552ca7a35013c0c7b2cac849db7057b7e5b6285d9a89c6ce93598"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/merge_research.py",
       "bytes": 5609,
       "sha256": "bd371814fb32cf10ab171b0f5d20d5a0ca2e9f83570bdf763729d0ab3187c6a6"
     },
     {
-      "path": "paopao-perspective-skill/scripts/ocr_caption_clean.py",
+      "path": "paopao-perspective-skill/scripts/research/ocr_caption_clean.py",
       "bytes": 8810,
       "sha256": "4f7da62423adadd718081a7c0fb700a993248b75b0eec92fffc025c6b6f8c078"
     },
     {
-      "path": "paopao-perspective-skill/scripts/quality_check.py",
+      "path": "paopao-perspective-skill/scripts/research/quality_check.py",
       "bytes": 5677,
       "sha256": "1f34ded1f0d161db82c4ce789088e772f5670ebbdd632f17d90f9896ee4e978e"
     },
     {
-      "path": "paopao-perspective-skill/scripts/reclean_ocr_outputs.py",
+      "path": "paopao-perspective-skill/scripts/research/reclean_ocr_outputs.py",
       "bytes": 4831,
       "sha256": "8bb9b5fe89051c248c4a63fd0ee951f401460aa29770dcd0bb7f9466dd963429"
     },
     {
-      "path": "paopao-perspective-skill/scripts/reconcile_ocr_outputs.py",
+      "path": "paopao-perspective-skill/scripts/research/reconcile_ocr_outputs.py",
       "bytes": 2904,
       "sha256": "26d304ee60160ff83af6156b84bb5803fb6fff0f5ed38404475143c170a53fa2"
     },
     {
-      "path": "paopao-perspective-skill/scripts/remap_card_citations.py",
+      "path": "paopao-perspective-skill/scripts/research/remap_card_citations.py",
       "bytes": 4319,
       "sha256": "050ec3cc34d2a8450a0a2862c490d7e149682c685964c6b444d6f82c9894fa90"
     },
     {
-      "path": "paopao-perspective-skill/scripts/search_corpus.py",
+      "path": "paopao-perspective-skill/scripts/research/search_corpus.py",
       "bytes": 3096,
       "sha256": "08f00771f8cc064d81692d5b198af12d817409838001657905ff5ba04a6534a4"
     },
     {
-      "path": "paopao-perspective-skill/scripts/srt_to_transcript.py",
+      "path": "paopao-perspective-skill/scripts/research/srt_to_transcript.py",
       "bytes": 3115,
       "sha256": "fe9de1d39243920f1c28fee519faa45c18230c67e41d1c34d4af83cdbc4f6b8b"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/video_card_index.py",
+      "bytes": 2456,
+      "sha256": "fafcd8bce7a1d07c061cb81f08956ef22bfa1cd5dd6a2f762dd18565f738e488"
+    },
+    {
+      "path": "paopao-perspective-skill/scripts/research/video_card_qa.py",
+      "bytes": 2782,
+      "sha256": "fbf3edf09cc50a98f95fb9727790e86547de6b8a1554044c485fe1ee38c42080"
     },
     {
       "path": "paopao-perspective-skill/scripts/validate_skill_content.py",
       "bytes": 3751,
       "sha256": "4fbd903184f8e69dbf7622f751956aba816a9fd67872918e428e11754e4afe50"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/video_card_index.py",
-      "bytes": 2456,
-      "sha256": "fafcd8bce7a1d07c061cb81f08956ef22bfa1cd5dd6a2f762dd18565f738e488"
-    },
-    {
-      "path": "paopao-perspective-skill/scripts/video_card_qa.py",
-      "bytes": 2782,
-      "sha256": "fbf3edf09cc50a98f95fb9727790e86547de6b8a1554044c485fe1ee38c42080"
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/PROTOCOL.md",
@@ -2326,28 +2326,13 @@
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/README.md",
-      "bytes": 2289,
-      "sha256": "a0d60dfb5147427a592f79846a70b49e2f5bc0910232eaae0c7b74c73c2746e9"
+      "bytes": 1839,
+      "sha256": "2eb5f8decd0a86e40a6035536ffe658f7f5baeafa1ec941343ad1f2d5548e156"
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/holdout.jsonl",
       "bytes": 3508,
       "sha256": "1413defa3c58bd5ec0547e31efe1a03403f524161879b248e0aa505e073f7b7b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/persona-ab-v1/input-review/config.json",
-      "bytes": 1894,
-      "sha256": "0e435d5ffe7c72787078bc7429f251ace44bf556911047d073318cc5022b212b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/persona-ab-v1/input-review/context-snapshot.json",
-      "bytes": 51211,
-      "sha256": "4e1e95925a5b44b62cdf04bb25ac538db3ea98a32bdeeaca9e6825cac10aeaab"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/persona-ab-v1/input-review/holdout.jsonl",
-      "bytes": 3232,
-      "sha256": "e2472c0537f6bbfcd7e8bce525c8a22d03e03017b25482c0368e00be99d868a2"
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/judge-reference.md",
@@ -2366,13 +2351,13 @@
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md",
-      "bytes": 8129,
-      "sha256": "8dd883216853b2abf0bc8f22fe301194f9adc00a3de8bb02cb06492fcde65fd6"
+      "bytes": 7522,
+      "sha256": "66523599162737c05e8c0279b46f1b7c9c399f40a977cdf86d8676151705dfd7"
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/run/EXECUTION.md",
-      "bytes": 2341,
-      "sha256": "999e271b47862937a79316991c4eccd72038a5e6d9b6d9f64f1c7ab167d00da9"
+      "bytes": 2249,
+      "sha256": "363bf2a2b9d00b981ed8fe3bffa57f5f1ac2bcf5e1d7937e919a84bf0a35aabb"
     },
     {
       "path": "paopao-perspective-skill/tests/persona-ab-v1/run/JUDGE1-NOTES.md",
@@ -2625,6 +2610,11 @@
       "sha256": "6bd1524edd57904c263e65ecd61867e91580f681c15cb4acc1af1c79abff6651"
     },
     {
+      "path": "paopao-perspective-skill/tests/persona-ab-v1/shared-system.txt",
+      "bytes": 274,
+      "sha256": "b458f1cf42b98e4f5b8297fa7a48e680d16835e8966770eff110b6ef527ac26e"
+    },
+    {
       "path": "playwright.config.ts",
       "bytes": 427,
       "sha256": "204dad5778e87b42e3eedcb992e31a9481a261a61c49c608aab3bbf8fc012f7a"
@@ -2651,13 +2641,13 @@
     },
     {
       "path": "scripts/build_release.py",
-      "bytes": 12120,
-      "sha256": "aa1f1ecbba6825da0dfac9aefbed973bced813f46c5118dac54d5eda6400c8c3"
+      "bytes": 12239,
+      "sha256": "ba124f24618d96c865f07e20135ed41ed86e6cdc947d18ecee13f2aa20fb206c"
     },
     {
       "path": "scripts/capture-readme.mjs",
-      "bytes": 3316,
-      "sha256": "a60491a640d5bba6ad3a5b25913cce2b6aea38b838d252f781138ce7d9febd9e"
+      "bytes": 3432,
+      "sha256": "dafc1f25bf4802add989868591c2c080bdef5bbe34bec9b4b46d0714445e6140"
     },
     {
       "path": "scripts/check_release.py",
@@ -2681,8 +2671,8 @@
     },
     {
       "path": "scripts/eval_release.py",
-      "bytes": 14154,
-      "sha256": "579ffede16e5bd8df5c6ee05cf51216e4f5d18753e019fed89a48ec3e2249f05"
+      "bytes": 269,
+      "sha256": "a27d15a511b3d2be9e5b26c3e5d286ddd18b06d98e8e9010b705ee8c221d682b"
     },
     {
       "path": "scripts/prepare-rag.ts",
@@ -2716,8 +2706,8 @@
     },
     {
       "path": "tests/release-packaging.test.py",
-      "bytes": 4385,
-      "sha256": "57f432b1406e84574a5a52b1f5ac55423cac6fdcdcca6faaedacd6fdbdeed97d"
+      "bytes": 5573,
+      "sha256": "d1d7ca506eae7647873621b144e2cc0a4f4b27dd0ca224940ae7ec58002b909d"
     },
     {
       "path": "tests/room.spec.ts",

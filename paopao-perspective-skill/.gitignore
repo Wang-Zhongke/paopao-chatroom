@@ -1,0 +1,4 @@
+.env*
+.local-evals/
+__pycache__/
+*.pyc

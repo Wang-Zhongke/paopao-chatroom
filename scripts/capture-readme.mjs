@@ -1,6 +1,6 @@
 // Isolated documentation preview: existing evaluation text, no personal history or model calls.
 import { chromium } from '@playwright/test';
-import { readFile, mkdir } from 'node:fs/promises';
+import { readFile, mkdir, access } from 'node:fs/promises';
 const report = await readFile('paopao-perspective-skill/examples/voice-samples.md','utf8');
 const answer = report.split('### Q1｜学 AI 工具但不敢做项目')[1].split('### Q2')[0].trim().split('\n').map(l=>l.replace(/^> ?/,'')).join('\n');
 const browser = await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}: {})});
@@ -10,8 +10,10 @@ try {
   await page.route('**/api/chat',r=>r.abort());
   await page.route('**/api/summary',r=>r.abort());
   // The README preview uses the user-provided local portrait.
-  await page.route('**/paopao-avatar.png',r=>r.fulfill({path:process.env.PAOPAO_PREVIEW_AVATAR || 'public/paopao-avatar.png',contentType:'image/png'}));
-  await page.goto('http://127.0.0.1:3000/');
+  const avatar = process.env.PAOPAO_PREVIEW_AVATAR || 'public/paopao-avatar.png';
+  await access(avatar);
+  await page.route(/\/paopao-(?:avatar\.png|mark\.svg)(?:\?.*)?$/,r=>r.fulfill({path:avatar,contentType:'image/png'}));
+  await page.goto(process.env.PLAYWRIGHT_BASE_URL || 'http://127.0.0.1:3000/');
   await page.locator('#message-input').waitFor();
   await page.evaluate(async answer=>{
     const time=Date.parse('2026-09-23T09:30:00+08:00');

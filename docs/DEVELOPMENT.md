@@ -32,3 +32,9 @@ node scripts/capture-readme.mjs
 发布过程见 [发布说明](PUBLISH.md)。截图是公开包唯一允许的 PNG 路径，个人头像原文件和其他本地 PNG 仍不分发；README 截图按用户要求展示该头像。
 
 验收独立公开副本时，可用 `pnpm start --port 3101` 启动，再以 `PLAYWRIGHT_BASE_URL=http://127.0.0.1:3101 pnpm test:e2e` 指定测试地址，避免占用当前开发服务。
+
+## 目录与评测
+
+`docs/` 描述当前开发、RAG 与发布方式；早期产品方案和阶段验收保留在维护者本地归档，不随公开包分发。Skill 的 `scripts/research/` 是素材采集和整理工具，日常使用不需要运行。
+
+新版人物评测的输入检查、付费运行及两个仓库的调用方式见 [评测指南](../paopao-perspective-skill/tests/persona-ab-v1/README.md)。生成目录默认在 Skill 的 `.local-evals/`，不覆盖正式结果。

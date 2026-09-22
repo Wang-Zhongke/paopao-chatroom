@@ -56,7 +56,7 @@
 复现命令：
 
 ```bash
-python3 scripts/compare_transcripts.py <AI-clean.md> <OCR-clean.md>
+python3 scripts/research/compare_transcripts.py <AI-clean.md> <OCR-clean.md>
 ```
 
 ## 4. 质量分层

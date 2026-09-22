@@ -1,6 +1,7 @@
 """Publication-copy regressions: exclusions, source links, hashes and safe output."""
 import importlib.util
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -32,6 +33,24 @@ class PublicationTests(unittest.TestCase):
         self.assertTrue(build.source_allowed(Path("scripts/build-rag.ts")))
         self.assertTrue(build.skill_allowed(Path("references/research/01-writings.md")))
         self.assertTrue(build.skill_allowed(Path("references/sources/bilibili/video-cards/BV1234567890.md")))
+
+    def test_persona_inputs_are_distributed_and_replay_without_network(self):
+        root = Path(__file__).resolve().parents[1]
+        skill = root / "paopao-perspective-skill"
+        self.assertTrue(build.skill_allowed(Path("tests/persona-ab-v1/shared-system.txt")))
+        self.assertTrue(build.skill_allowed(Path(".gitignore")))
+        self.assertTrue(build.skill_allowed(Path("scripts/research/README.md")))
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "inputs"
+            cmd = ["python3", str(skill / "scripts/eval_persona.py"), "--output", str(out)]
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            actual = json.loads((out / "config.json").read_text())
+            frozen = json.loads((skill / "tests/persona-ab-v1/run/config.json").read_text())
+            for key in ("files_sha256", "base_system", "parameters"):
+                self.assertEqual(actual[key], frozen[key])
+            self.assertFalse(actual["run_requested"])
+            self.assertNotEqual(subprocess.run(cmd, capture_output=True).returncode, 0)
 
     def test_metadata_allowlist_and_link_rewrite(self):
         with tempfile.TemporaryDirectory() as tmp:

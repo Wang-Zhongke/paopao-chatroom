@@ -30,7 +30,7 @@
 ## 刷新报告
 
 ```bash
-python3 scripts/bili_corpus_report.py \
+python3 scripts/research/bili_corpus_report.py \
   --manifest references/sources/bilibili/corpus-index.json \
   --transcript-dir references/sources/bilibili/transcripts/clean \
   --output references/sources/bilibili/corpus-report.md

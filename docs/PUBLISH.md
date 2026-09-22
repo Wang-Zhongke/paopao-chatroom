@@ -1,56 +1,25 @@
-# v0.1 发布候选说明
+# 发布与维护
 
-连麦室与独立 Skill 已分别上传 GitHub；源码发布不等于网站已上线托管。最新[人物模拟评测](../paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md)在12题、两名独立Judge中观察到相对模型自行模拟的还原度增益。可准确描述实验条件与结果，不应笼统宣传“全面优于baseline”“高保真已验证”。正式发布时从当前源码重新构建 ZIP，不使用历史 rc2 包。
+公开仓库：[连麦室](https://github.com/Wang-Zhongke/paopao-chatroom) · [独立 Skill](https://github.com/Wang-Zhongke/paopao-skill)。源码发布不等于网站已上线。下载源码可使用 Code → Download ZIP。
 
-本轮工程与独立阅读审查记录见 [发布检查](RELEASE-CHECK.md)。
+## 内容边界
 
-## 公开什么
+连麦室包含应用和内置 Skill；独立 Skill 可单独安装。公开包包含代码、框架、来源卡与正式评测材料，不包含密钥、个人聊天、完整字幕、原视频或生成的 RAG 索引。README 截图展示自定义头像，头像原文件不随包分发。归属见[第三方说明](../THIRD_PARTY_NOTICES.md)。
 
-- `paopao-perspective-skill-v0.1.0.zip`：可安装的 Skill、框架、研究摘要、来源卡与必要索引。
-- `paopao-room-source-v0.1.0.zip`：网页源码及同一公开 Skill 资料。
-- 两个包各自附 `MANIFEST.json`，记录文件哈希、资料净化和链接变换。
+## 构建公开包
 
-不分发完整字幕、OCR、原视频、抓取 API 原始响应、密钥、原有本地头像或嵌套 Git 元数据。README 截图展示使用者提供的本地头像，但头像原文件不随包提供。公开材料的摘要与原文引用分别保留归属。详见 [第三方声明](../THIRD_PARTY_NOTICES.md)。
-
-## 构建与检查
-
-在工作区根目录运行，输出路径必须是不存在或为空的绝对目录：
+从连麦室仓库根目录运行；输出必须是不存在或为空的绝对目录：
 
 ```sh
-python3 scripts/build_release.py --output /absolute/path/to/new-release-directory
-python3 scripts/check_release.py /absolute/path/to/new-release-directory/paopao-perspective-skill
-python3 scripts/check_release.py /absolute/path/to/new-release-directory/paopao-room
+python3 scripts/build_release.py --output /absolute/path/to/new-release
+python3 scripts/check_release.py /absolute/path/to/new-release/paopao-room
+python3 scripts/check_release.py /absolute/path/to/new-release/paopao-perspective-skill
 ```
 
-构建脚本不会删除本地研究资料。它在副本内净化索引、改写指向未分发文本的引用，并给公开应用使用原创泡泡 SVG 标志。最终 manifest 可解释副本与本地源文件的差异。
+脚本生成应用与 Skill 两份 ZIP，并附记录文件哈希的 MANIFEST.json。副本会净化来源索引、处理引用并使用公开版图标，不修改原始研究资料。
 
-## 仓库边界
+## 验证与同步
 
-以完整应用源码副本 `paopao-room` 作为统一公开仓库；其中 `paopao-perspective-skill` 是普通子目录，可独立打包安装。完整本地工作区还含研究私有输入，不能直接执行全量上传。
+在新生成的应用副本执行 `pnpm install --frozen-lockfile`、`pnpm typecheck`、`pnpm test`、`pnpm build`，再按[开发指南](DEVELOPMENT.md)验证浏览器交互。无密钥应禁用发送；无 RAG 索引仍能通过 Skill 回答。
 
-本地旧 Skill 空 Git 元数据已经可恢复地移到 `.local-archive/paopao-skill-git-20260918`；原始文件未删除，根工作区 Git 作为主仓库。归档不会进入公开包。
-
-公开仓库：[paopao-chatroom](https://github.com/Wang-Zhongke/paopao-chatroom)、[paopao-skill](https://github.com/Wang-Zhongke/paopao-skill)。两者分别保留完整应用与独立安装内容；本次未创建 GitHub Release，下载源码可使用仓库的 Code → Download ZIP。
-
-## 独立安装验收
-
-在新生成的 `paopao-room` 副本中验证，不复制本地 `.env.local`、`node_modules`、字幕或 RAG 索引：
-
-```sh
-pnpm install --frozen-lockfile
-pnpm typecheck
-pnpm test
-python3 tests/release-packaging.test.py
-pnpm build
-pnpm start
-```
-
-使用 Node.js 24+ 和 package.json 固定的 pnpm 版本。无密钥时应可打开界面、管理记录，并明确禁用发送。浏览器测试可在另一终端运行 `pnpm test:e2e`（需先安装 Playwright Chromium），模型回复由测试模拟。真实聊天需自行配置服务端密钥；公开副本没有索引时使用 Skill-only 回答。
-
-`.github/workflows/ci.yml` 随公开包分发，会在 GitHub 上执行上述主要工程检查和浏览器测试。首次推送后仍需确认 Actions 实际运行成功。
-
-## 发布前最后一步
-
-检查打包报告、明确模型测试状态、审阅 MIT 与第三方分发范围，再从公开源码副本提交 GitHub。Git 提交、两个公开仓库创建和首次推送已完成，网站上线托管尚未执行。
-
-建议首次发布描述：基于公开资料的中文职业与商业决策人物 Skill，附可运行的 DeepSeek 连麦 Demo、来源卡和可复现评测工具。报告研究覆盖数量与实际分发范围，不把语料数量当作保真度分数。
+两个仓库分别提交对应公开副本，并核对连麦室的 [Actions](https://github.com/Wang-Zhongke/paopao-chatroom/actions)。维护 Skill 时统一修改来源，再同步内置副本，避免两份内容独立漂移。正式评测材料保留原始输入与结果；新实验使用新输出目录。当前工程验收见[发布检查](RELEASE-CHECK.md)。
