@@ -6,6 +6,8 @@
 
 **[安装使用](docs/INSTALL.md) · [真实回答](tests/persona-ab-v1/run/CASE-INDEX.md) · [人物模拟评测](tests/persona-ab-v1/run/EVAL-REPORT.md) · [研究与来源](docs/RESEARCH.md)**
 
+[下载 Skill 源码 ZIP](https://github.com/Wang-Zhongke/paopao-skill/archive/refs/heads/main.zip) · [完整连麦室](https://github.com/Wang-Zhongke/paopao-chatroom)
+
 ## 先看一次回答
 
 **问题：** 35 岁，有房贷和孩子，在大公司做内部报表。一家 AI 创业公司降薪 20%，承诺负责核心产品，值得去吗？

@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11177,
-      "sha256": "6829bbf0162ab5d0aa30f6652f4c6fd352c2d0311c96b5ab2abb21c4c05d515d"
+      "bytes": 11436,
+      "sha256": "aa986941c29c81b611a7625a74c6f48574f5cca7898b496170a82cbe93bdb759"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -111,13 +111,13 @@
     },
     {
       "path": "docs/PUBLISH.md",
-      "bytes": 3794,
-      "sha256": "8b90e34d724427488a2763ddfe66b290dd94294c13ac9f831097f1b0d69a7589"
+      "bytes": 3967,
+      "sha256": "3a738d02cfea9cdc3dd5c84d3a99751a903b6124af0931e43144874d667e7051"
     },
     {
       "path": "docs/RELEASE-CHECK.md",
-      "bytes": 4827,
-      "sha256": "3257e777608f23d76cfe9a3dd68b13617c5e00b6cb99bd3d8c4f10aa6a4b69c8"
+      "bytes": 4856,
+      "sha256": "31c125fc00bde8376d1f921d172acef305d2dd2ba38d04338820ec88152ff3c0"
     },
     {
       "path": "docs/assets/chatroom.png",
@@ -226,8 +226,8 @@
     },
     {
       "path": "paopao-perspective-skill/README.md",
-      "bytes": 5584,
-      "sha256": "62e94ce8323cb0d57546b54879486bd986454e9170127434a0e07065e474fea6"
+      "bytes": 5755,
+      "sha256": "036768b74e50e144201e4503473bca3ea6747f87920de3bfdb7c32c5ef1c7583"
     },
     {
       "path": "paopao-perspective-skill/SKILL.md",

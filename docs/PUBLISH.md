@@ -1,6 +1,6 @@
 # v0.1 发布候选说明
 
-当前完成本地发布准备，不代表已经上传 GitHub。最新[人物模拟评测](../paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md)在12题、两名独立Judge中观察到相对模型自行模拟的还原度增益；此前[通用顾问对照](../paopao-perspective-skill/tests/release-v01/token8192-run/EVAL-REPORT.md)未胜出。可准确描述实验条件与结果，不应笼统宣传“全面优于baseline”“高保真已验证”。正式发布时从当前源码重新构建 ZIP，不使用历史 rc2 包。
+连麦室与独立 Skill 已分别上传 GitHub；源码发布不等于网站已上线托管。最新[人物模拟评测](../paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md)在12题、两名独立Judge中观察到相对模型自行模拟的还原度增益；此前[通用顾问对照](../paopao-perspective-skill/tests/release-v01/token8192-run/EVAL-REPORT.md)未胜出。可准确描述实验条件与结果，不应笼统宣传“全面优于baseline”“高保真已验证”。正式发布时从当前源码重新构建 ZIP，不使用历史 rc2 包。
 
 本轮工程与独立阅读审查记录见 [发布检查](RELEASE-CHECK.md)。
 
@@ -30,7 +30,7 @@ python3 scripts/check_release.py /absolute/path/to/new-release-directory/paopao-
 
 本地旧 Skill 空 Git 元数据已经可恢复地移到 `.local-archive/paopao-skill-git-20260918`；原始文件未删除，根工作区 Git 作为主仓库。归档不会进入公开包。
 
-GitHub 仓库 URL 尚未设置，因此文档不提供虚构的克隆或一键远程安装命令。创建目标远程仓库后，再补实际地址及 release 下载链接。
+公开仓库：[paopao-chatroom](https://github.com/Wang-Zhongke/paopao-chatroom)、[paopao-skill](https://github.com/Wang-Zhongke/paopao-skill)。两者分别保留完整应用与独立安装内容；本次未创建 GitHub Release，下载源码可使用仓库的 Code → Download ZIP。
 
 ## 独立安装验收
 
@@ -51,6 +51,6 @@ pnpm start
 
 ## 发布前最后一步
 
-检查打包报告、明确模型测试状态、审阅 MIT 与第三方分发范围，再从公开源码副本提交 GitHub。Git 提交、创建远程仓库、推送和上线托管尚未执行。
+检查打包报告、明确模型测试状态、审阅 MIT 与第三方分发范围，再从公开源码副本提交 GitHub。Git 提交、两个公开仓库创建和首次推送已完成，网站上线托管尚未执行。
 
 建议首次发布描述：基于公开资料的中文职业与商业决策人物 Skill，附可运行的 DeepSeek 连麦 Demo、来源卡和可复现评测工具。报告研究覆盖数量与实际分发范围，不把语料数量当作保真度分数。

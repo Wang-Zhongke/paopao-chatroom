@@ -33,9 +33,13 @@
 
 ## 快速启动
 
-需要 **Node.js 24+、pnpm 11.19.0、自己的 DeepSeek API key**。在下载并解压的应用源码目录中打开终端：
+[连麦室源码](https://github.com/Wang-Zhongke/paopao-chatroom) · [独立 Skill 仓库](https://github.com/Wang-Zhongke/paopao-skill)
+
+需要 **Node.js 24+、pnpm 11.19.0、自己的 DeepSeek API key**。在终端克隆项目；若已下载并解压源码，进入该目录后从安装依赖开始：
 
 ```sh
+git clone https://github.com/Wang-Zhongke/paopao-chatroom.git
+cd paopao-chatroom
 pnpm install --frozen-lockfile
 cp .env.example .env.local
 ```
