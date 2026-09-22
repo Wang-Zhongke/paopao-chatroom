@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12012,
-      "sha256": "198203f5bab05afc0f1011ceb228602043bbfe8fb96c42f8d436bef9970735d1"
+      "bytes": 11863,
+      "sha256": "8db1a846ea2ab72d04de796ee1e8eba8cdde2f3543f5e77e51570182a38cd9e6"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -106,18 +106,18 @@
     },
     {
       "path": "docs/DEVELOPMENT.md",
-      "bytes": 2004,
-      "sha256": "a76d89aed14fc01850c78268cb03341632d4bddbc8182cfa12e5cba8e3999653"
+      "bytes": 2010,
+      "sha256": "27cf714b3fdc3a76f0e814c07abf9ff021d092b852177aae985dd2d6a027f7d5"
     },
     {
       "path": "docs/PUBLISH.md",
-      "bytes": 3967,
-      "sha256": "3a738d02cfea9cdc3dd5c84d3a99751a903b6124af0931e43144874d667e7051"
+      "bytes": 3853,
+      "sha256": "e9f9cb5aace0bf0c927536258fb9aaaca39e94a78f3a5fb156657a852f1165c1"
     },
     {
       "path": "docs/RELEASE-CHECK.md",
-      "bytes": 4856,
-      "sha256": "31c125fc00bde8376d1f921d172acef305d2dd2ba38d04338820ec88152ff3c0"
+      "bytes": 1434,
+      "sha256": "040aa9824da08f8c1dc674c01d42b96baf7a648f04354c7b860c2125dcc5b921"
     },
     {
       "path": "docs/assets/chatroom.png",
@@ -226,13 +226,13 @@
     },
     {
       "path": "paopao-perspective-skill/README.md",
-      "bytes": 5755,
-      "sha256": "036768b74e50e144201e4503473bca3ea6747f87920de3bfdb7c32c5ef1c7583"
+      "bytes": 5422,
+      "sha256": "59f8f68edb2cf3f871ac629a08a415d9fc415cf27d07090a5cb34db70da772b9"
     },
     {
       "path": "paopao-perspective-skill/SKILL.md",
-      "bytes": 18180,
-      "sha256": "c6c6d28f351b847de8a6dd0fe13b3b94f58e9e59f55a739ccdc47c23ef51496b"
+      "bytes": 18169,
+      "sha256": "35980ce61d0bf4a51e71c105d47f1f67a9bd996ed8dda8e6dc5b7017df720c0f"
     },
     {
       "path": "paopao-perspective-skill/THIRD_PARTY_NOTICES.md",
@@ -268,6 +268,11 @@
       "path": "paopao-perspective-skill/examples/job-evaluation.md",
       "bytes": 1452,
       "sha256": "9de6a8de00e92be612b6d92ad196b026d44d51c45ec7ca178535aa9709914382"
+    },
+    {
+      "path": "paopao-perspective-skill/examples/voice-samples.md",
+      "bytes": 4967,
+      "sha256": "19274561b9795caeb80ad7e761ad5745308ef4b491e99365f6f3e68ce854b93f"
     },
     {
       "path": "paopao-perspective-skill/references/ai-career-framework.md",
@@ -2301,8 +2306,8 @@
     },
     {
       "path": "paopao-perspective-skill/scripts/validate_skill_content.py",
-      "bytes": 3785,
-      "sha256": "e42f261e562fc8c1a92ad4c30b089645d52816f0b8f9658ae5bd4230984c3165"
+      "bytes": 3751,
+      "sha256": "4fbd903184f8e69dbf7622f751956aba816a9fd67872918e428e11754e4afe50"
     },
     {
       "path": "paopao-perspective-skill/scripts/video_card_index.py",
@@ -2620,636 +2625,6 @@
       "sha256": "6bd1524edd57904c263e65ecd61867e91580f681c15cb4acc1af1c79abff6651"
     },
     {
-      "path": "paopao-perspective-skill/tests/release-v01/README.md",
-      "bytes": 4266,
-      "sha256": "413cbfdcb602df4c89b9a0f6fc8bba9e5635a07376ac643bf7945b30ef9ea504"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/UNBLIND-KEY.json",
-      "bytes": 1455,
-      "sha256": "d76fd458756880bf218cd153ee445350416586f95b8dc7b44b99d836f7c83714"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R01-off.json",
-      "bytes": 1124,
-      "sha256": "2fe424b9afb1adff42efc8ca620ba00909ce29a6574dd87b07da26eed80ed5d0"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R01-on.json",
-      "bytes": 52433,
-      "sha256": "df7af19e89f8a33c46d0d5d0495687cb56256b17bbf1aaeb6048397fb7418d93"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R02-off.json",
-      "bytes": 977,
-      "sha256": "4805cfa50b413c24316c1dc483b78db8fd56974bbb20490474aa978e58ce7ced"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R02-on.json",
-      "bytes": 52286,
-      "sha256": "ed8d6a32dabbadb667e8a076890d83144b4095252cec4e7d21d12d563141f375"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R03-off.json",
-      "bytes": 965,
-      "sha256": "69dfa70ce7b469f894da884224b994d287a0297af085364a73c14bb4aef0430b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R03-on.json",
-      "bytes": 52274,
-      "sha256": "e89a295a90093009fb175c5a1ae4de2f20d2bb66e8ef46b3389f5d50a710a081"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R04-off.json",
-      "bytes": 969,
-      "sha256": "742213dc42a12118f306a7f38a8c5f0181f9c4744d956aea5b9d231cedb62051"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R04-on.json",
-      "bytes": 52278,
-      "sha256": "c976072b953c26341eb941dd611047a423ca4e3fadde6a0f634a07770555e7bc"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R05-off.json",
-      "bytes": 1051,
-      "sha256": "59434b4d300d937a9d58fcf8f1038fcce300bc0fd7fbf443c9cccbcdf6387e6f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R05-on.json",
-      "bytes": 52360,
-      "sha256": "785af289b1dee32d95f8c11809c3ca1f005ecce375d3baed2df36a3b2b433238"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R06-off.json",
-      "bytes": 1052,
-      "sha256": "0d054ad4ecf7d7294119e658f67e133945cca3f3c876a8dd90f4b76cb6972024"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R06-on.json",
-      "bytes": 52359,
-      "sha256": "aeef5034605a8da74757ac4dbd70f8ca7e9eaf5a54fcb7063bbc3453b38b6b00"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R07-off.json",
-      "bytes": 1042,
-      "sha256": "848204533371ec58aed12a4d52f4ba1d9be67180ee856445cc99564436695642"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R07-on.json",
-      "bytes": 52351,
-      "sha256": "253574367168ecbf0c8987d86570c96d2024a5bd14f9d2ccafab4890b5bfc598"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R08-off.json",
-      "bytes": 1080,
-      "sha256": "69fea2ef4dd7351d720724337d35d2ea082dec1f786221a68bf3dd4d3a94e4dd"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R08-on.json",
-      "bytes": 52389,
-      "sha256": "c94df95154f09216d73a08e660445fdea0b0d49d4dd6c73cdfa34fbbac4eda6c"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R09-off.json",
-      "bytes": 1073,
-      "sha256": "889aa5c90e79b86df32b7b0e92f0c9e3c782df35a7931bf09c3aa67ec54d0956"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R09-on.json",
-      "bytes": 52380,
-      "sha256": "3d382272ee146cc040ce8dddb5956b77cd76a0e1f82330a8a7ae0bc44d275f3a"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R10-off.json",
-      "bytes": 1047,
-      "sha256": "9ed9d7ce1b80568f16f49ed76d8702e31705c19b971e0962674e665ef1944879"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R10-on.json",
-      "bytes": 52356,
-      "sha256": "fd2ce62b0caa2009cf525beab7e1fdbc18e548fe971ee6aad38059693e753139"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R11-off.json",
-      "bytes": 1102,
-      "sha256": "9619efe8354784a7cd6a15cd69d8514a82110574a47c6dc41ca850a5d63fde80"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R11-on.json",
-      "bytes": 52409,
-      "sha256": "1f9d502ede38072c17886d3121b15deef36305f036569ff653011d09702a1408"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R12-off.json",
-      "bytes": 1067,
-      "sha256": "7420e5bd408e54959da6b7c2bb50c02dc050dc384f25bb4b49ec8e855b0a0906"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/answer-R12-on.json",
-      "bytes": 52376,
-      "sha256": "1dc668426f3229c7da0d39e3c2a6822024106effe66fdabc58ea8055659b4cfd"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/UNBLIND-KEY.json",
-      "bytes": 1455,
-      "sha256": "d76fd458756880bf218cd153ee445350416586f95b8dc7b44b99d836f7c83714"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R01-off.json",
-      "bytes": 1125,
-      "sha256": "f7b334474bebf5558a16813127de8d8e59549e5babb91d2a5bed1d6d2b4a4f91"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R01-on.json",
-      "bytes": 52433,
-      "sha256": "9b6614526e103543f263f795338709ed065b6a4c03b5b6feb4822741f5f9715a"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R02-off.json",
-      "bytes": 979,
-      "sha256": "83ba4f33c653976828bed8f7f213935a2b4dd7eb8b09560f93eb52a79638b9c3"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R02-on.json",
-      "bytes": 52286,
-      "sha256": "62cb6f38e13d537c4201aad9c644a58b1c39614d8f3b0b553645b36eb9e6f9ca"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R03-off.json",
-      "bytes": 967,
-      "sha256": "99984f9b151d777beb7727743ca7cb8f2100a17d2ea046adf3a865cf05db08c3"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R03-on.json",
-      "bytes": 52274,
-      "sha256": "c2f8c5d736aab92ddccf8aab3858c0330f94c1821e55db15d56cca75695bf6ca"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R04-off.json",
-      "bytes": 971,
-      "sha256": "7e9aecf64a66e78a5cd341b3c0e8dc5d25a7bef6b5d79c246bba28cee013aa73"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R04-on.json",
-      "bytes": 52278,
-      "sha256": "8619d335b713783a2040645bdc67b2d31aa9ec7682478b099b297930a9f970be"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R05-off.json",
-      "bytes": 1053,
-      "sha256": "c73a204c7eb2a96b8d78d1f73664fccfedd5fe8ae2dc3bbd81580b1df512a7b5"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R05-on.json",
-      "bytes": 52360,
-      "sha256": "b2aef8cd7605e047f31d9baed6b44f4009741e588dd2ef5660e669f842595ecd"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R06-off.json",
-      "bytes": 1052,
-      "sha256": "4e456f2d1f125d3b5e8d27d5495668694a3dfaa63bda093aa52b308b128fd12b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R06-on.json",
-      "bytes": 52359,
-      "sha256": "1f7e51a80bf1fa5bcd3ff83437df1036e9a91c843b03bcd7d08c1eb5bf4efd98"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R07-off.json",
-      "bytes": 1044,
-      "sha256": "f7e9652f7b0ea63bf6b9fb6c2f8cb7df055d95a7dd590170e4aed32358567263"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R07-on.json",
-      "bytes": 52351,
-      "sha256": "bfd0932f607672fb49ce7ad17d4da694b95993e4417c672a614c6c9d0701c559"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R08-off.json",
-      "bytes": 1082,
-      "sha256": "f06d49be6a53e767325d07d8f12fb535ecd170162db34ae1c6d9e4cbe66d8929"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R08-on.json",
-      "bytes": 52389,
-      "sha256": "fbb59ddbcdc9852bf7cbf3d9cc45e0b205297235596e6af9f9e604b0b341217e"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R09-off.json",
-      "bytes": 1073,
-      "sha256": "c6ece4980fa2688669d9b8d243e7e91a0abe29e2107a730e9fa5dbc992cfa379"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R09-on.json",
-      "bytes": 52380,
-      "sha256": "a8cfe7839745cd1fbc4863d25ed1c620e297c85b507b0605dcefe2ebc23f341b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R10-off.json",
-      "bytes": 1049,
-      "sha256": "a67a4c1a39c594963abd0034bc787e32d9f5099a4b454bc0d875c8f7dcb5ad14"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R10-on.json",
-      "bytes": 52356,
-      "sha256": "b1ac01d132404bb47bef533647ae0d90979346acfdd1b8e9b7721166f1d6e0da"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R11-off.json",
-      "bytes": 1101,
-      "sha256": "2b5da6b97d948adfc24cf83cb441aefeb031e394c0da991cdc2ceb47bb660c0d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R11-on.json",
-      "bytes": 52409,
-      "sha256": "75db308b146ce026fdf82dae21be11819d4c7d69a23a12272f1d2cd650185390"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R12-off.json",
-      "bytes": 1068,
-      "sha256": "b9a5e742c834ee5abbab73f6b130b6795f45c8ce7aad701389a3acc071a12275"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/answer-R12-on.json",
-      "bytes": 52376,
-      "sha256": "1ec500f090074f30f35f518a8ca5a3e394d1ce004c6ad607f2690d285f39add9"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/blind-package.jsonl",
-      "bytes": 6060,
-      "sha256": "87f90b6c2bb4dec4156cfea967fbaab3333e97e97812011692872b1d5061a711"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/config.json",
-      "bytes": 1889,
-      "sha256": "4b8b927b815b103622a5b2d93d3094ce0a2d72fd975a7b542ebe7b5ce5ba69f7"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/context-snapshot.json",
-      "bytes": 51211,
-      "sha256": "4e1e95925a5b44b62cdf04bb25ac538db3ea98a32bdeeaca9e6825cac10aeaab"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/holdout.jsonl",
-      "bytes": 4704,
-      "sha256": "382f1350f8f88bcc3533def2ee8f692d31a26b93b7cc7a54fd15148d462d60d2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run/run-summary.json",
-      "bytes": 234,
-      "sha256": "addb20372095b64508fe17d16d56728daa8fdcd8339aad02455c9b721d91eb93"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/STATUS.md",
-      "bytes": 1577,
-      "sha256": "a18231f5d25588cbffddc0ec815661ffc370273bfe788bb12ca97569356314d5"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R02-on.json",
-      "bytes": 120011,
-      "sha256": "3c93bca374cd640f08677f6b5e14955b0c40dacc79a41164365def4d0cf4e912"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R03-on.json",
-      "bytes": 118034,
-      "sha256": "baf9836a3ab4f509c1e2d7430bb79e599c6e39e93609d95826810b00c132ffed"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R08-off.json",
-      "bytes": 11556,
-      "sha256": "1718a8e642e50d482c79fb5bef667f925c544637ffa04aa194c314596f926c20"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R09-off.json",
-      "bytes": 11506,
-      "sha256": "0573b204e1a81a5a24a95e440f29bac3c39c6806aebf70b3a0fabb63347760eb"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R11-off.json",
-      "bytes": 11960,
-      "sha256": "c28e91dec77b2f5e24bca54eaef9385d0c3379be35bde92c1bf548b28109bd23"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/answer-R12-on.json",
-      "bytes": 59588,
-      "sha256": "a0bf1a3460070a5ec7d871cfd2862bb98487f3d654088f1f4023081822f4e456"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/config.json",
-      "bytes": 1889,
-      "sha256": "d070619318597ed99d0ad2b038da7ab8a313753145af83124360578837ff31b8"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/context-snapshot.json",
-      "bytes": 51211,
-      "sha256": "4e1e95925a5b44b62cdf04bb25ac538db3ea98a32bdeeaca9e6825cac10aeaab"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/authorized-run-system-ca/holdout.jsonl",
-      "bytes": 4704,
-      "sha256": "382f1350f8f88bcc3533def2ee8f692d31a26b93b7cc7a54fd15148d462d60d2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/blind-package.jsonl",
-      "bytes": 6060,
-      "sha256": "87f90b6c2bb4dec4156cfea967fbaab3333e97e97812011692872b1d5061a711"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/config.json",
-      "bytes": 1889,
-      "sha256": "516e0c60c7fc48436da190d94a04462da1387076775416de8d41c702b3721485"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/context-snapshot.json",
-      "bytes": 51211,
-      "sha256": "4e1e95925a5b44b62cdf04bb25ac538db3ea98a32bdeeaca9e6825cac10aeaab"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/holdout.jsonl",
-      "bytes": 4704,
-      "sha256": "382f1350f8f88bcc3533def2ee8f692d31a26b93b7cc7a54fd15148d462d60d2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/run-summary.json",
-      "bytes": 234,
-      "sha256": "77ae1e0b405f4f5026bda102f67c7ba8f197d443ce828c2aae77ea6dfed03dad"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/CASE-INDEX.md",
-      "bytes": 549,
-      "sha256": "7ec049c9685126918340bdb6d9e958c40973a8579b31e3e147fc24d82dece3c7"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/EVAL-REPORT.md",
-      "bytes": 7233,
-      "sha256": "b820232c24224e04e0e130e263af8d1dedb2d1d47011e506ecc45bc89a452556"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/EXECUTION.md",
-      "bytes": 2891,
-      "sha256": "bd2c6df5b69c07a58710824fb48b61440aaf0a65803121f09298acd67de8bf1d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/JUDGE-NOTES.md",
-      "bytes": 4037,
-      "sha256": "4cd2840ca4921f84faf746fcbb0d5665a3fbca527d297d3c0909731fb14776d8"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/JUDGE-PROTOCOL.md",
-      "bytes": 1983,
-      "sha256": "ff07248cbaee035f29eb6826ee30970056f19587807328adca3a1a69c300604b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/UNBLIND-KEY.json",
-      "bytes": 1455,
-      "sha256": "d76fd458756880bf218cd153ee445350416586f95b8dc7b44b99d836f7c83714"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R01-off.json",
-      "bytes": 16799,
-      "sha256": "0df5fb76d4ac579e4442fddac1e3fccba31118247fed8a71e476ac1e324afd25"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R01-on.json",
-      "bytes": 58927,
-      "sha256": "d27f76ee7649955d8370966d6d1de265cd3b2ac33ee6478ecdea53ed941feb87"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R02-off.json",
-      "bytes": 23938,
-      "sha256": "cee2c8bd71003cb1aa565d1ffec5d77febdacd7dc12696f5ef61d28e3e8e4a3f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R02-on.json",
-      "bytes": 119708,
-      "sha256": "526eb3ddde28b5df6bae7ec14a2fbc69882b3e4e4bef9bb7665db9c29db98724"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R03-off.json",
-      "bytes": 30658,
-      "sha256": "5f6a59f55ef444420ab3003be612d6f985295ea1c7eda4e6aa18d17585455ddd"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R03-on.json",
-      "bytes": 116763,
-      "sha256": "491d3d823e902e89c9a7e2c8d896b35186ee67703c26e1b21a9a031762a3025b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R04-off.json",
-      "bytes": 33847,
-      "sha256": "9e1cacab09f70200002e464cad9c6df93886d7539a686acc88aec6e4bc803140"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R04-on.json",
-      "bytes": 121336,
-      "sha256": "08fd95ae917482da4c16f3391ed02abbee980db6900c2351f3dbf45640c94b2d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R05-off.json",
-      "bytes": 16535,
-      "sha256": "1ea03ea09ebffd20692056f74ef18f2b47fc6bcbabe0a81e6db56d56ab4af777"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R05-on.json",
-      "bytes": 58659,
-      "sha256": "035d63bdc1f5abc238d1cefbcee9f4249e8f457778103e75aa7a895894297397"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R06-off.json",
-      "bytes": 16092,
-      "sha256": "8f0420b28c22aea106eccd4380715055585b1acdcc10dd0cd5bbeba632c81525"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R06-on.json",
-      "bytes": 61000,
-      "sha256": "5127d70ec652a5e9a1a5fdce27d587fd6a5354776d65e4d0e2467c6eb43c3635"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R07-off.json",
-      "bytes": 21096,
-      "sha256": "81937894dc8aed790ea59e62c70aaa4af4104738478f06bb03ff1f5bbe29c5b9"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R07-on.json",
-      "bytes": 61351,
-      "sha256": "3a83f7a68ccd3d4cc6e97874013e7427e6e0cff98d8ed900e7f101b57c1144b1"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R08-off.json",
-      "bytes": 15648,
-      "sha256": "ba8d08c109ca82480307e7f6780edfdf4c6945e931830b166d42b7043fcc4d44"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R08-on.json",
-      "bytes": 58849,
-      "sha256": "7c15922022f81d5abc40ee72184bb4fa03892a2cac509dfab86b36abd858c9b1"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R09-off.json",
-      "bytes": 13909,
-      "sha256": "3defb6079646086fc5ec68d6c23fe94226ee6a2b5a710ed88948b41ac26a6f2b"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R09-on.json",
-      "bytes": 59899,
-      "sha256": "0d1a949b6a602d5329cf90aab4438a23266727661aee9b5b101cc320a806c564"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R10-off.json",
-      "bytes": 8183,
-      "sha256": "ecaa1892690a783ab828dfc8e45bfcfdab94bb38f63010ba3f1883cdc4471eeb"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R10-on-attempt1.json",
-      "bytes": 52366,
-      "sha256": "12306d9343401562794b5d69d766be0fe5332c34d2754d7585b9e630d59deb9c"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R10-on.json",
-      "bytes": 58453,
-      "sha256": "032a3841ca9d98f33e30b18d1da02d231a63f13ff300edfd948f764b0600ebe2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R11-off.json",
-      "bytes": 17780,
-      "sha256": "3c78f35db55924ddfa878b139787a6abf02847a3620e827eca760fb67842e75f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R11-on.json",
-      "bytes": 58993,
-      "sha256": "915b4ef0e78a8f262bff85c9bae43ed287998cd4e9cad4038dde09611ca9970d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R12-off.json",
-      "bytes": 21152,
-      "sha256": "46911e4b5efea358a71c0d85c23e7648c0d132f887b9d58d75c2d868ddd3de9f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/answer-R12-on.json",
-      "bytes": 60749,
-      "sha256": "6fecd823cb537a2fe8a9c7af760594c718d9b207261c34d1e87840d10dae3406"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/baseline.jsonl",
-      "bytes": 65877,
-      "sha256": "a7762892ef3a05c5215b0f015c7f1e0d7f1f6c5401546e22f41e9b6efea3788f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/blind-judge.jsonl",
-      "bytes": 20653,
-      "sha256": "3079b22bb23a76ac40bdc5510504fce2989603202cedb136c59a547662dea7bb"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/blind-package.jsonl",
-      "bytes": 102489,
-      "sha256": "6591d3f2cf496e380a7ec955b47005bed428cfb4bdb653fd65031753779403a8"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R01.md",
-      "bytes": 9375,
-      "sha256": "027289c92c9b367ca456d491635d9ee5fef83531422a38c9a7b729d1128bdf3d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R02.md",
-      "bytes": 16695,
-      "sha256": "4fb9befbbdbf1f2bbeb98df8e8bd297e0a25fd225bde6bd13ebcc84bf770f856"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R03.md",
-      "bytes": 13384,
-      "sha256": "d8ea18bbbc6166871ff2e4760f76b711068c1a330d4bce92fd3547a55852bc3d"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R04.md",
-      "bytes": 16648,
-      "sha256": "9b6e807a76e6fdb00851c1f79a0698fe98a40637ec05ef0fc56a5456ea7a94bc"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R05.md",
-      "bytes": 8830,
-      "sha256": "5a5bbeed8d15393bd03fe2b281ae44220046f20d7562aa81ebbff9165c993d04"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R06.md",
-      "bytes": 7961,
-      "sha256": "ee9c92fc9287c1ffd07e62ef4b4a7405d75a0bddd630a4a7d2b14d689d557568"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R07.md",
-      "bytes": 8120,
-      "sha256": "411cff9fb0275dbf808b29498a294dfd98d14d7acbb15fc55a898bb4d69beac1"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R08.md",
-      "bytes": 9839,
-      "sha256": "d3d7f7ca2f0e2d67091d46d9c176ad8d7bea0e5b571bdb43e79dce56ef2d7ad6"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R09.md",
-      "bytes": 9617,
-      "sha256": "66109dfee47b7e61dc0ece9823454dd63dcbeec59bf009becab8d5bed4a86523"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R10.md",
-      "bytes": 6317,
-      "sha256": "8a420a942049d1abc43eb0a8e58b2e9bf700e27f4601dbbc1a5956e4cd5a19fd"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R11.md",
-      "bytes": 8630,
-      "sha256": "844c39e9a90461c267f3118e2893e1cf6cce45c52b59383128ebcae3b2bf1fef"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/cases/R12.md",
-      "bytes": 9318,
-      "sha256": "d45a9faf98313b2e9b37f43a4bd62fbe29a1f4344745abb198ae62ffaa8a9492"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/config.json",
-      "bytes": 1912,
-      "sha256": "402ac933980c2fd2ef47b62352ec7e7cabde9db066b7e33dd2927804a6f377d1"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/context-snapshot.json",
-      "bytes": 51211,
-      "sha256": "4e1e95925a5b44b62cdf04bb25ac538db3ea98a32bdeeaca9e6825cac10aeaab"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/holdout.jsonl",
-      "bytes": 4704,
-      "sha256": "382f1350f8f88bcc3533def2ee8f692d31a26b93b7cc7a54fd15148d462d60d2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/metrics.json",
-      "bytes": 554,
-      "sha256": "73c0809c7cb53b719a17204d0e720e91c93885a360b01d01904ae50743555796"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/regression-results.json",
-      "bytes": 392,
-      "sha256": "2d56d31b720b15cb70bb80e140c2376d33687acfa60366706d687db53b56c11f"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/run-summary.json",
-      "bytes": 273,
-      "sha256": "fe7b8d180dea3aa1dad8ca0bea47c3fd5da87f66f3488ac0d7ed1cc3ba5644b2"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/release-v01/token8192-run/skill-on.jsonl",
-      "bytes": 57399,
-      "sha256": "6257e30169e2a97ec2f59b821414ffeeaca0e5e33e1177ddc909ec8c0efe46bc"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/voice-fidelity-v2.md",
-      "bytes": 1952,
-      "sha256": "8a55d8ea7330a4443fd81c207faaeecdaa166b8dc6437c98e3345cdaf4f5b9ec"
-    },
-    {
-      "path": "paopao-perspective-skill/tests/voice-v2-results.md",
-      "bytes": 6153,
-      "sha256": "fd3925a8bedf403b8060062cd668db40f6e6a9436f6869551b75d31f1228869e"
-    },
-    {
       "path": "playwright.config.ts",
       "bytes": 427,
       "sha256": "204dad5778e87b42e3eedcb992e31a9481a261a61c49c608aab3bbf8fc012f7a"
@@ -3282,7 +2657,7 @@
     {
       "path": "scripts/capture-readme.mjs",
       "bytes": 3316,
-      "sha256": "b014a0f183cc646ff249a03096d29e1769a74745af65efa9422f6e8c454823e0"
+      "sha256": "a60491a640d5bba6ad3a5b25913cce2b6aea38b838d252f781138ce7d9febd9e"
     },
     {
       "path": "scripts/check_release.py",

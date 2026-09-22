@@ -1,7 +1,7 @@
 // Isolated documentation preview: existing evaluation text, no personal history or model calls.
 import { chromium } from '@playwright/test';
 import { readFile, mkdir } from 'node:fs/promises';
-const report = await readFile('paopao-perspective-skill/tests/voice-v2-results.md','utf8');
+const report = await readFile('paopao-perspective-skill/examples/voice-samples.md','utf8');
 const answer = report.split('### Q1｜学 AI 工具但不敢做项目')[1].split('### Q2')[0].trim().split('\n').map(l=>l.replace(/^> ?/,'')).join('\n');
 const browser = await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}: {})});
 try {

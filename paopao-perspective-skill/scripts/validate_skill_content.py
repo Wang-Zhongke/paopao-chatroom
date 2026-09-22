@@ -25,8 +25,7 @@ REQUIRED = [
     "examples/career-decision.md",
     "examples/job-evaluation.md",
     "examples/ai-product-career.md",
-    "tests/voice-fidelity-v2.md",
-    "tests/voice-v2-results.md",
+    "examples/voice-samples.md",
 ]
 
 

@@ -27,7 +27,7 @@ python3 tests/release-packaging.test.py
 node scripts/capture-readme.mjs
 ```
 
-脚本使用隔离浏览器、本地自定义泡泡老师头像和 `voice-v2-results.md` 中已有的 Q1 回答生成 `docs/assets/chatroom.png`。拦截聊天和小结请求，不调用模型，不读取或更改个人聊天历史。需要已安装 Playwright Chromium，或设置上述浏览器路径变量。截图同时展示聊天与本次小结；小结为对应的演示内容，不是新的模型验收结果。公开源码不附头像原文件，重截前请设置 `PAOPAO_PREVIEW_AVATAR=/absolute/path/to/avatar.png` 指向自己的 PNG 头像。
+脚本使用隔离浏览器、本地自定义泡泡老师头像和 `examples/voice-samples.md` 中已有的 Q1 回答生成 `docs/assets/chatroom.png`。拦截聊天和小结请求，不调用模型，不读取或更改个人聊天历史。需要已安装 Playwright Chromium，或设置上述浏览器路径变量。截图同时展示聊天与本次小结；小结为对应的演示内容，不是新的模型验收结果。公开源码不附头像原文件，重截前请设置 `PAOPAO_PREVIEW_AVATAR=/absolute/path/to/avatar.png` 指向自己的 PNG 头像。
 
 发布过程见 [发布说明](PUBLISH.md)。截图是公开包唯一允许的 PNG 路径，个人头像原文件和其他本地 PNG 仍不分发；README 截图按用户要求展示该头像。
 

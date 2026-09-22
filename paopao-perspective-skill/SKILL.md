@@ -253,7 +253,7 @@ description: >-
 
 ## Tests
 
-- 当前高保真人物模式的测试协议见 [voice-fidelity-v2.md](tests/voice-fidelity-v2.md)，独立前向测试结果见 [voice-v2-results.md](tests/voice-v2-results.md)。
+- 人物视角的测试方法见 [评测说明](tests/persona-ab-v1/README.md)，结果与局限见 [人物视角评测报告](tests/persona-ab-v1/run/EVAL-REPORT.md)。
 - 示例见 [career-decision.md](examples/career-decision.md)、[job-evaluation.md](examples/job-evaluation.md)、[ai-product-career.md](examples/ai-product-career.md)。
 
 ---

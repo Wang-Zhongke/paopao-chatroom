@@ -1,6 +1,6 @@
 # v0.1 发布候选说明
 
-连麦室与独立 Skill 已分别上传 GitHub；源码发布不等于网站已上线托管。最新[人物模拟评测](../paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md)在12题、两名独立Judge中观察到相对模型自行模拟的还原度增益；此前[通用顾问对照](../paopao-perspective-skill/tests/release-v01/token8192-run/EVAL-REPORT.md)未胜出。可准确描述实验条件与结果，不应笼统宣传“全面优于baseline”“高保真已验证”。正式发布时从当前源码重新构建 ZIP，不使用历史 rc2 包。
+连麦室与独立 Skill 已分别上传 GitHub；源码发布不等于网站已上线托管。最新[人物模拟评测](../paopao-perspective-skill/tests/persona-ab-v1/run/EVAL-REPORT.md)在12题、两名独立Judge中观察到相对模型自行模拟的还原度增益。可准确描述实验条件与结果，不应笼统宣传“全面优于baseline”“高保真已验证”。正式发布时从当前源码重新构建 ZIP，不使用历史 rc2 包。
 
 本轮工程与独立阅读审查记录见 [发布检查](RELEASE-CHECK.md)。
 
