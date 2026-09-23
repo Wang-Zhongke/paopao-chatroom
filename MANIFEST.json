@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11957,
-      "sha256": "c9b6386de19ca1b239c1973eddfbfe4c1eaf661f63163b26856f0c5fd53dad76"
+      "bytes": 11939,
+      "sha256": "62ce1f2cf320d49db9d5875de4005e1248f06d89f243587b736718bcafbad426"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -106,8 +106,13 @@
     },
     {
       "path": "docs/DEVELOPMENT.md",
-      "bytes": 2500,
-      "sha256": "5c7ea4b7997d53e302ecd3b3fc265018f8ab895fb6d591d5d3e8d2e35348ae62"
+      "bytes": 2485,
+      "sha256": "6ede6b6f6cbdacd6caad0d91f15a044e33d724ac80ebe812e7fe23c86c3feb75"
+    },
+    {
+      "path": "docs/PERSONA-RAG.md",
+      "bytes": 3349,
+      "sha256": "10eb5c3414f0415280fa99bea93d258ae1340dce3b4b576552a74a05f438f7b7"
     },
     {
       "path": "docs/PUBLISH.md",
@@ -123,11 +128,6 @@
       "path": "docs/assets/chatroom.png",
       "bytes": 290429,
       "sha256": "640d2356885ad987996b1bba9f7c3e78a08a2d8bdcba360519e8e2d617e220ad"
-    },
-    {
-      "path": "docs/persona-rag-full-ingestion.md",
-      "bytes": 5649,
-      "sha256": "3e62da27ef00b80a0c78e21c1d4c9b34c2ef4dfcbf51bc8bed271fd79b8c01bb"
     },
     {
       "path": "lib/context.ts",

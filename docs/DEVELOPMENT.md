@@ -17,7 +17,7 @@ python3 paopao-perspective-skill/scripts/validate_skill_content.py
 python3 tests/release-packaging.test.py
 ```
 
-本地完整素材的 RAG 构建和检索验收见 [全量入库说明](persona-rag-full-ingestion.md)。`rag:eval --live` 才会进行真实模型调用并产生 API 费用，普通工程和检索测试不执行该步骤。
+本地完整素材的 RAG 构建和检索验收见 [Persona RAG 说明](PERSONA-RAG.md)。`rag:eval --live` 才会进行真实模型调用并产生 API 费用，普通工程和检索测试不执行该步骤。
 
 ## 更新 README 截图
 

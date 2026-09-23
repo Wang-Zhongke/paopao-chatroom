@@ -134,7 +134,7 @@ pnpm rag:eval:full    # 全文一致性、覆盖范围及新增八题
 
 `.env.local` 中设置 `RAG_ENABLED=false` 可比较纯 Skill 模式，改回 `true` 启用。`RAG_DEBUG=true` 仅在开发环境打印检索状态与分数，不打印完整 prompt、用户问题或密钥。更改环境变量后重启服务。
 
-当前从本地 Top 40 候选中筛选，每轮最多 3 条证据、累计不超过 24,000 字符，并去除重叠字幕；不会把完整知识库塞入对话。检索不消耗模型 API token，选入上下文的证据会增加生成请求的输入用量。阈值集中在 [lib/rag/config.ts](lib/rag/config.ts)，处理细节与限制见 [全量入库说明](docs/persona-rag-full-ingestion.md)。
+当前从本地 Top 40 候选中筛选，每轮最多 3 条证据、累计不超过 24,000 字符，并去除重叠字幕；不会把完整知识库塞入对话。检索不消耗模型 API token，选入上下文的证据会增加生成请求的输入用量。阈值集中在 [lib/rag/config.ts](lib/rag/config.ts)，处理细节与限制见 [Persona RAG 说明](docs/PERSONA-RAG.md)。
 
 ## 测试与效果评测
 
@@ -157,7 +157,7 @@ pnpm test:e2e
 
 默认使用 Playwright 安装的 Chromium。如果需要使用已安装的兼容浏览器，可通过 `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` 指定其可执行文件路径。Linux 环境缺少系统依赖时，可使用 `pnpm exec playwright install --with-deps chromium`。
 
-本地全量入库验收已通过原有五类及新增八题检索检查、22 项单元与接口测试、类型检查和生产构建。浏览器测试覆盖停止重试、编辑重答、记录恢复及删除确认；测试通过不代表真实模型每轮回答正确。Skill 内容和公开打包检查命令见 [开发与发布检查说明](docs/DEVELOPMENT.md)。
+当前知识库验收已通过五类基础及八项新增检索检查、22 项单元与接口测试、类型检查和生产构建。浏览器测试覆盖停止重试、编辑重答、记录恢复及删除确认；测试通过不代表真实模型每轮回答正确。Skill 内容和公开打包检查命令见 [开发与发布检查说明](docs/DEVELOPMENT.md)。
 
 ### 人物视角效果
 
